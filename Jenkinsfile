@@ -1,29 +1,38 @@
 pipeline {
     agent any
-
     stages {
-        stage('Checkout') {
+        stage('Setup Environment') {
             steps {
-                git 'https://github.com/kchilla872/Playwright.git'
-            }
-        }
-        stage('Install Dependencies') {
-            steps {
-                bat 'python -m venv venv'
-                bat 'python -m pip install --upgrade pip'
-                bat 'call venv\\Scripts\\activate && pip install -r requirements.txt'
-                bat 'call venv\\Scripts\\activate && playwright install'
+                script {
+                    bat '''
+                        cd "C:\\Users\\karthik.chillara\\PycharmProjects\\KeywordDrivenDemo0905"
+                        call venv\\Scripts\\activate
+                        pip install -r requirements.txt
+                        playwright install chromium --with-deps
+                    '''
+                }
             }
         }
         stage('Run Tests') {
             steps {
-                bat 'call venv\\Scripts\\activate && pytest homePage.py -v'
+                script {
+                    bat '''
+                        cd "C:\\Users\\karthik.chillara\\PycharmProjects\\KeywordDrivenDemo0905"
+                        call venv\\Scripts\\activate
+                        pytest test_runner.py --headed --slowmo=1000 --html=report.html --self-contained-html
+                    '''
+                }
+            }
+        }
+        stage('Archive HTML Report') {
+            steps {
+                archiveArtifacts artifacts: 'report.html', allowEmptyArchive: true
             }
         }
     }
     post {
         always {
-            cleanWs()
+            archiveArtifacts artifacts: 'report.html', allowEmptyArchive: true
         }
     }
 }
