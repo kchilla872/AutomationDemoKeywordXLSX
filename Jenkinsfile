@@ -26,13 +26,13 @@ pipeline {
         }
         stage('Archive and Publish HTML Report') {
             steps {
-                // Archive the HTML report so it can be downloaded
+
                 archiveArtifacts artifacts: 'report.html', allowEmptyArchive: true
 
-                // Publish the HTML report in Jenkins UI
+
                 publishHTML(target: [
-                    reportDir: '.',                // Directory where report.html is located
-                    reportFiles: 'report.html',   // Report file name
+                    reportDir: '.',
+                    reportFiles: 'report.html',
                     reportName: 'Pytest HTML Report',
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
@@ -43,7 +43,6 @@ pipeline {
     }
     post {
         always {
-            // Optionally archive again to ensure report is persisted on any build outcome
             archiveArtifacts artifacts: 'report.html', allowEmptyArchive: true
         }
     }
