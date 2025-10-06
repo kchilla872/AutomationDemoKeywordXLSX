@@ -11,6 +11,14 @@ def app_url():
         return f.read().strip()
 
 
+@pytest.fixture(scope="session")
+def browser_context_args(browser_context_args):
+    """Override browser context arguments."""
+    return {
+        **browser_context_args,
+    }
+
+
 def pytest_generate_tests(metafunc):
     if "test_case_id" in metafunc.fixturenames:
         test_data = load_test_cases("test_suites/hiresense_keywords.xlsx")
