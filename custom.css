@@ -1,0 +1,68 @@
+/* ==== pytest-html Custom Report Styling ==== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+#environment, #results-summary {
+    background-color: #e8f0fe;
+    border: 1px solid #d0e0f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Status colors */
+.passed {
+    background-color: #2e7d32 !important;
+    color: white !important;
+}
+
+.failed {
+    background-color: #c62828 !important;
+    color: white !important;
+}
+
+.skipped {
+    background-color: #ff9800 !important;
+    color: white !important;
+}
+
+/* Hover effects */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

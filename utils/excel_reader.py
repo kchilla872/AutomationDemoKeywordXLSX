@@ -13,5 +13,7 @@ def load_test_cases(file_path):
             "Locator": row[3],
             "InputData": row[4],
             "ExpectedResult": row[5],
+            "Execute":row[6],
+            "Priority": row[7],
         })
     return test_steps
