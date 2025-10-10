@@ -24,7 +24,7 @@ pipeline {
                             bat '''
                                 cd "C:\\Users\\karthik.chillara\\PycharmProjects\\KeywordDrivenDemo0905"
                                 call venv\\Scripts\\activate
-                                pytest test_runner.py -v --browser=chromium  --headed --slowmo 1000 --html=report_chromium.html --css=custom.css --self-contained-html
+                                pytest test_runner.py -v --browser=chromium  --headed --slowmo 1000 --html=report_chromium.html --css=custom.css --self-contained-html --log-cli-level=INFO
                             '''
                         }
                     }
@@ -36,7 +36,7 @@ pipeline {
                             bat '''
                                 cd "C:\\Users\\karthik.chillara\\PycharmProjects\\KeywordDrivenDemo0905"
                                 call venv\\Scripts\\activate
-                                pytest test_runner.py -v --browser=firefox  --headed --slowmo 1000 --html=report_firefox.html --css=custom.css --self-contained-html
+                                pytest test_runner.py -v --browser=firefox  --headed --slowmo 1000 --html=report_firefox.html --css=custom.css --self-contained-html --log-cli-level=INFO
                             '''
                         }
                     }
@@ -48,7 +48,7 @@ pipeline {
                             bat '''
                                 cd "C:\\Users\\karthik.chillara\\PycharmProjects\\KeywordDrivenDemo0905"
                                 call venv\\Scripts\\activate
-                                pytest test_runner.py -v --browser=webkit  --headed --slowmo 1000 --html=report_webkit.html --css=custom.css --self-contained-html
+                                pytest test_runner.py -v --browser=webkit  --headed --slowmo 1000 --html=report_webkit.html --css=custom.css --self-contained-html --log-cli-level=INFO
                             '''
                         }
                     }

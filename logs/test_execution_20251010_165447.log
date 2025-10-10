@@ -1,0 +1,165 @@
+2025-10-10 16:54:47 | INFO     | keyword_framework | setup_logger:86 | ================================================================================
+2025-10-10 16:54:47 | INFO     | keyword_framework | setup_logger:87 | Logging initialized - Log file: logs\test_execution_20251010_165447.log
+2025-10-10 16:54:47 | INFO     | keyword_framework | setup_logger:88 | ================================================================================
+2025-10-10 16:54:47 | INFO     | keyword_framework | logger:26 | ===== Test Session Started =====
+2025-10-10 16:54:56 | INFO     | keyword_framework | log_test_start:110 | ================================================================================
+2025-10-10 16:54:56 | INFO     | keyword_framework | log_test_start:111 | TEST CASE START: TC001
+2025-10-10 16:54:56 | INFO     | keyword_framework | log_test_start:114 | ================================================================================
+2025-10-10 16:54:59 | INFO     | keyword_framework | log_step:134 | Step 1: InputText | Locator: id=email | Value: cbts-ta@cbts.com
+2025-10-10 16:55:00 | INFO     | keyword_framework | log_step_result:140 | Step 1 - PASSED 
+2025-10-10 16:55:00 | INFO     | keyword_framework | log_step:134 | Step 2: InputText | Locator: id=password | Value: hiresense
+2025-10-10 16:55:01 | INFO     | keyword_framework | log_step_result:140 | Step 2 - PASSED 
+2025-10-10 16:55:01 | INFO     | keyword_framework | log_step:134 | Step 3: Click | Locator: //button[contains(text(),'Sign In')]
+2025-10-10 16:55:02 | INFO     | keyword_framework | log_step_result:140 | Step 3 - PASSED 
+2025-10-10 16:55:02 | INFO     | keyword_framework | log_test_end:119 | --------------------------------------------------------------------------------
+2025-10-10 16:55:02 | INFO     | keyword_framework | log_test_end:120 | TEST CASE END: TC001 | Status: PASS
+2025-10-10 16:55:02 | INFO     | keyword_framework | log_test_end:122 | Duration: 6.04 seconds
+2025-10-10 16:55:02 | INFO     | keyword_framework | log_test_end:123 | ================================================================================
+2025-10-10 16:55:02 | INFO     | keyword_framework | log_test_end:124 | 
+2025-10-10 16:55:03 | INFO     | keyword_framework | log_test_start:110 | ================================================================================
+2025-10-10 16:55:03 | INFO     | keyword_framework | log_test_start:111 | TEST CASE START: TC002
+2025-10-10 16:55:03 | INFO     | keyword_framework | log_test_start:114 | ================================================================================
+2025-10-10 16:55:04 | INFO     | keyword_framework | log_step:134 | Step 1: InputText | Locator: id=email | Value: cbts-ta@.com
+2025-10-10 16:55:06 | INFO     | keyword_framework | log_step_result:140 | Step 1 - PASSED 
+2025-10-10 16:55:06 | INFO     | keyword_framework | log_step:134 | Step 2: InputText | Locator: id=password | Value: hire
+2025-10-10 16:55:07 | INFO     | keyword_framework | log_step_result:140 | Step 2 - PASSED 
+2025-10-10 16:55:07 | INFO     | keyword_framework | log_step:134 | Step 3: Click | Locator: //button[contains(text(),'Sign In')]
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_step_result:140 | Step 3 - PASSED 
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_end:119 | --------------------------------------------------------------------------------
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_end:120 | TEST CASE END: TC002 | Status: PASS
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_end:122 | Duration: 5.22 seconds
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_end:123 | ================================================================================
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_end:124 | 
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_start:110 | ================================================================================
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_start:111 | TEST CASE START: TC003
+2025-10-10 16:55:08 | INFO     | keyword_framework | log_test_start:114 | ================================================================================
+2025-10-10 16:55:11 | INFO     | keyword_framework | log_step:134 | Step 1: InputText | Locator: id=email | Value: cbts-ta@cbts.com
+2025-10-10 16:55:12 | INFO     | keyword_framework | log_step_result:140 | Step 1 - PASSED 
+2025-10-10 16:55:12 | INFO     | keyword_framework | log_step:134 | Step 2: InputText | Locator: id=password | Value: hiresense
+2025-10-10 16:55:13 | INFO     | keyword_framework | log_step_result:140 | Step 2 - PASSED 
+2025-10-10 16:55:13 | INFO     | keyword_framework | log_step:134 | Step 3: Click | Locator: //button[contains(text(),'Sign In')]
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_step_result:140 | Step 3 - PASSED 
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_step:134 | Step 4: VerifyVisible | Locator: //a[contains(text(), 'Hire Sense')]
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_step_result:140 | Step 4 - PASSED 
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_step:134 | Step 5: VerifyText | Locator: //div/p[contains(text(),'Welcome to Hire Sense')] | Value: Welcome to Hire Sense
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_step_result:140 | Step 5 - PASSED 
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_test_end:119 | --------------------------------------------------------------------------------
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_test_end:120 | TEST CASE END: TC003 | Status: PASS
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_test_end:122 | Duration: 5.44 seconds
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_test_end:123 | ================================================================================
+2025-10-10 16:55:14 | INFO     | keyword_framework | log_test_end:124 | 
+2025-10-10 16:55:15 | INFO     | keyword_framework | log_test_start:110 | ================================================================================
+2025-10-10 16:55:15 | INFO     | keyword_framework | log_test_start:111 | TEST CASE START: TC004
+2025-10-10 16:55:15 | INFO     | keyword_framework | log_test_start:114 | ================================================================================
+2025-10-10 16:55:17 | INFO     | keyword_framework | log_step:134 | Step 1: InputText | Locator: id=email | Value: cbts-ta@cbts.com
+2025-10-10 16:55:18 | INFO     | keyword_framework | log_step_result:140 | Step 1 - PASSED 
+2025-10-10 16:55:18 | INFO     | keyword_framework | log_step:134 | Step 2: InputText | Locator: id=password | Value: hiresense
+2025-10-10 16:55:19 | INFO     | keyword_framework | log_step_result:140 | Step 2 - PASSED 
+2025-10-10 16:55:19 | INFO     | keyword_framework | log_step:134 | Step 3: Click | Locator: //button[contains(text(),'Sign In')]
+2025-10-10 16:55:20 | INFO     | keyword_framework | log_step_result:140 | Step 3 - PASSED 
+2025-10-10 16:55:20 | INFO     | keyword_framework | log_step:134 | Step 4: Click | Locator: //a[contains(text(), 'Upload Resume')]
+2025-10-10 16:55:21 | INFO     | keyword_framework | log_step_result:140 | Step 4 - PASSED 
+2025-10-10 16:55:21 | INFO     | keyword_framework | log_step:134 | Step 5: VerifyText | Locator: //div/p[contains(text(),'Upload resumes for analysis and ranking')] | Value: Upload resumes for analysis and ranking
+2025-10-10 16:55:21 | INFO     | keyword_framework | log_step_result:140 | Step 5 - PASSED 
+2025-10-10 16:55:21 | INFO     | keyword_framework | log_step:134 | Step 6: InputText | Locator: //textarea[@class='resume-textarea'] | Value: KANNAN.S
+Software Developer 
+11 years
+Service now, AMS 
+E-mail id: sr.kannan1988@gmail.com
+Mobile No: +919843732850
+M.E., (Communication Systems) 
+2025-10-10 16:55:22 | INFO     | keyword_framework | log_step_result:140 | Step 6 - PASSED 
+2025-10-10 16:55:22 | INFO     | keyword_framework | log_step:134 | Step 7: Click | Locator: //button[contains(text(),'Upload Resume Text')]
+2025-10-10 16:55:24 | INFO     | keyword_framework | log_step_result:140 | Step 7 - PASSED 
+2025-10-10 16:55:24 | INFO     | keyword_framework | log_step:134 | Step 8: InputText | Locator: //input[@placeholder="Search by name, email or skills"] | Value: John Doe
+2025-10-10 16:55:25 | INFO     | keyword_framework | log_step_result:140 | Step 8 - PASSED 
+2025-10-10 16:55:25 | INFO     | keyword_framework | log_step:134 | Step 9: SelectOption | Locator: //label[contains(text(),'Filter by Skill')]/following-sibling::select[@class="form-control"] | Value: Java
+2025-10-10 16:55:26 | INFO     | keyword_framework | log_step_result:140 | Step 9 - PASSED 
+2025-10-10 16:55:26 | INFO     | keyword_framework | log_step:134 | Step 10: SelectOption | Locator: //label[contains(text(),'Experience level')]/following-sibling::select[@class="form-control"] | Value: Senior level (7+ yrs)
+2025-10-10 16:55:27 | INFO     | keyword_framework | log_step_result:140 | Step 10 - PASSED 
+2025-10-10 16:55:27 | INFO     | keyword_framework | log_step:134 | Step 11: SelectOption | Locator: //label[contains(text(),'Sort')]/following-sibling::select[@class="form-control"] | Value: By Name (Z-A)
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_step_result:140 | Step 11 - PASSED 
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_end:119 | --------------------------------------------------------------------------------
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_end:120 | TEST CASE END: TC004 | Status: PASS
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_end:122 | Duration: 13.12 seconds
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_end:123 | ================================================================================
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_end:124 | 
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_start:110 | ================================================================================
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_start:111 | TEST CASE START: TC005
+2025-10-10 16:55:28 | INFO     | keyword_framework | log_test_start:114 | ================================================================================
+2025-10-10 16:55:30 | INFO     | keyword_framework | log_step:134 | Step 1: InputText | Locator: id=email | Value: cbts-ta@cbts.com
+2025-10-10 16:55:31 | INFO     | keyword_framework | log_step_result:140 | Step 1 - PASSED 
+2025-10-10 16:55:31 | INFO     | keyword_framework | log_step:134 | Step 2: InputText | Locator: id=password | Value: hiresense
+2025-10-10 16:55:33 | INFO     | keyword_framework | log_step_result:140 | Step 2 - PASSED 
+2025-10-10 16:55:33 | INFO     | keyword_framework | log_step:134 | Step 3: Click | Locator: //button[contains(text(),'Sign In')]
+2025-10-10 16:55:34 | INFO     | keyword_framework | log_step_result:140 | Step 3 - PASSED 
+2025-10-10 16:55:34 | INFO     | keyword_framework | log_step:134 | Step 4: Click | Locator: //a[contains(text(), 'Upload Resume')]
+2025-10-10 16:55:35 | INFO     | keyword_framework | log_step_result:140 | Step 4 - PASSED 
+2025-10-10 16:55:35 | INFO     | keyword_framework | log_step:134 | Step 5: Upload | Locator: 
+//div[contains(text(),'Drop your resume here or click to browse')] | Value: upload_files/Dilwarjan Shaik.docx
+2025-10-10 16:55:37 | INFO     | keyword_framework | log_step_result:140 | Step 5 - PASSED 
+2025-10-10 16:55:37 | INFO     | keyword_framework | log_test_end:119 | --------------------------------------------------------------------------------
+2025-10-10 16:55:37 | INFO     | keyword_framework | log_test_end:120 | TEST CASE END: TC005 | Status: PASS
+2025-10-10 16:55:37 | INFO     | keyword_framework | log_test_end:122 | Duration: 8.93 seconds
+2025-10-10 16:55:37 | INFO     | keyword_framework | log_test_end:123 | ================================================================================
+2025-10-10 16:55:37 | INFO     | keyword_framework | log_test_end:124 | 
+2025-10-10 16:55:38 | INFO     | keyword_framework | log_test_start:110 | ================================================================================
+2025-10-10 16:55:38 | INFO     | keyword_framework | log_test_start:111 | TEST CASE START: TC006
+2025-10-10 16:55:38 | INFO     | keyword_framework | log_test_start:114 | ================================================================================
+2025-10-10 16:55:40 | INFO     | keyword_framework | log_step:134 | Step 1: InputText | Locator: id=email | Value: cbts-ta@cbts.com
+2025-10-10 16:55:41 | INFO     | keyword_framework | log_step_result:140 | Step 1 - PASSED 
+2025-10-10 16:55:41 | INFO     | keyword_framework | log_step:134 | Step 2: InputText | Locator: id=password | Value: hiresense
+2025-10-10 16:55:42 | INFO     | keyword_framework | log_step_result:140 | Step 2 - PASSED 
+2025-10-10 16:55:42 | INFO     | keyword_framework | log_step:134 | Step 3: Click | Locator: //button[contains(text(),'Sign In')]
+2025-10-10 16:55:43 | INFO     | keyword_framework | log_step_result:140 | Step 3 - PASSED 
+2025-10-10 16:55:43 | INFO     | keyword_framework | log_step:134 | Step 4: Click | Locator: //a[contains(text(), 'Upload Job Requisition')]
+2025-10-10 16:55:45 | INFO     | keyword_framework | log_step_result:140 | Step 4 - PASSED 
+2025-10-10 16:55:45 | INFO     | keyword_framework | log_step:134 | Step 5: VerifyText | Locator: //div/p[contains(text(),'Upload Job Requisitions for analysis and resume ranking')] | Value: Upload Job Requisitions for analysis and resume ranking
+2025-10-10 16:55:45 | INFO     | keyword_framework | log_step_result:140 | Step 5 - PASSED 
+2025-10-10 16:55:45 | INFO     | keyword_framework | log_step:134 | Step 6: InputText | Locator: //textarea[@class='resume-textarea'] | Value: We are looking for Senior Automation Engineer who has experience working with Citrix, VMware, Nutanix APIs for integration and automation
+2025-10-10 16:55:46 | INFO     | keyword_framework | log_step_result:140 | Step 6 - PASSED 
+2025-10-10 16:55:46 | INFO     | keyword_framework | log_step:134 | Step 7: Click | Locator: //button[contains(text(),'Upload Job Requisition Text')]
+2025-10-10 16:55:47 | INFO     | keyword_framework | log_step_result:140 | Step 7 - PASSED 
+2025-10-10 16:55:47 | INFO     | keyword_framework | log_step:134 | Step 8: Click | Locator: //div[contains(text(),'Automation Engineer')]/following::button[contains(text(),'Match')][1]
+2025-10-10 16:55:49 | INFO     | keyword_framework | log_step_result:140 | Step 8 - PASSED 
+2025-10-10 16:55:49 | INFO     | keyword_framework | log_step:134 | Step 9: VerifyText | Locator: //div/h1[contains(text(),'Resume Ranking Results')] | Value: Resume Ranking Results
+2025-10-10 16:55:49 | INFO     | keyword_framework | log_step_result:140 | Step 9 - PASSED 
+2025-10-10 16:55:49 | INFO     | keyword_framework | log_step:134 | Step 10: VerifyText | Locator: //div[contains(text(),'Senior Automation Engineer')] | Value: Senior Automation Engineer
+2025-10-10 16:55:49 | INFO     | keyword_framework | log_step_result:140 | Step 10 - PASSED 
+2025-10-10 16:55:49 | INFO     | keyword_framework | log_step:134 | Step 11: InputText | Locator: //input[@placeholder="Search by name, email or skills"] | Value: John Doe
+2025-10-10 16:55:50 | INFO     | keyword_framework | log_step_result:140 | Step 11 - PASSED 
+2025-10-10 16:55:50 | INFO     | keyword_framework | log_step:134 | Step 12: SelectOption | Locator: //label[contains(text(),'Filter by Skill')]/following-sibling::select[@class="form-control"] | Value: Java
+2025-10-10 16:55:52 | INFO     | keyword_framework | log_step_result:140 | Step 12 - PASSED 
+2025-10-10 16:55:52 | INFO     | keyword_framework | log_step:134 | Step 13: SelectOption | Locator: //label[contains(text(),'Experience level')]/following-sibling::select[@class="form-control"] | Value: All levels
+2025-10-10 16:55:53 | INFO     | keyword_framework | log_step_result:140 | Step 13 - PASSED 
+2025-10-10 16:55:53 | INFO     | keyword_framework | log_step:134 | Step 14: Click | Locator: //a[contains(text(), 'Match Another Job Requisition')]
+2025-10-10 16:55:54 | INFO     | keyword_framework | log_step_result:140 | Step 14 - PASSED 
+2025-10-10 16:55:54 | INFO     | keyword_framework | log_step:134 | Step 15: Click | Locator: //div[contains(text(),'Automation Engineer')]/following::button[contains(text(),'Match')][2]
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_step_result:140 | Step 15 - PASSED 
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_step:134 | Step 16: VerifyText | Locator: //div/h1[contains(text(),'Resume Ranking Results')] | Value: Resume Ranking Results
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_step_result:140 | Step 16 - PASSED 
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_step:134 | Step 17: VerifyText | Locator: //div[contains(text(),'Senior Java Developer')] | Value: Senior Java Developer
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_step_result:140 | Step 17 - PASSED 
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_test_end:119 | --------------------------------------------------------------------------------
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_test_end:120 | TEST CASE END: TC006 | Status: PASS
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_test_end:122 | Duration: 17.43 seconds
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_test_end:123 | ================================================================================
+2025-10-10 16:55:55 | INFO     | keyword_framework | log_test_end:124 | 
+2025-10-10 16:55:56 | INFO     | keyword_framework | log_test_start:110 | ================================================================================
+2025-10-10 16:55:56 | INFO     | keyword_framework | log_test_start:111 | TEST CASE START: TC007
+2025-10-10 16:55:56 | INFO     | keyword_framework | log_test_start:114 | ================================================================================
+2025-10-10 16:55:58 | INFO     | keyword_framework | log_step:134 | Step 1: InputText | Locator: id=email | Value: cbts-ta@cbts.com
+2025-10-10 16:55:59 | INFO     | keyword_framework | log_step_result:140 | Step 1 - PASSED 
+2025-10-10 16:55:59 | INFO     | keyword_framework | log_step:134 | Step 2: InputText | Locator: id=password | Value: hiresense
+2025-10-10 16:56:00 | INFO     | keyword_framework | log_step_result:140 | Step 2 - PASSED 
+2025-10-10 16:56:00 | INFO     | keyword_framework | log_step:134 | Step 3: Click | Locator: //button[contains(text(),'Sign In')]
+2025-10-10 16:56:01 | INFO     | keyword_framework | log_step_result:140 | Step 3 - PASSED 
+2025-10-10 16:56:01 | INFO     | keyword_framework | log_step:134 | Step 4: Click | Locator: //button[contains(text(),'Logout')]
+2025-10-10 16:56:03 | INFO     | keyword_framework | log_step_result:140 | Step 4 - PASSED 
+2025-10-10 16:56:03 | INFO     | keyword_framework | log_test_end:119 | --------------------------------------------------------------------------------
+2025-10-10 16:56:03 | INFO     | keyword_framework | log_test_end:120 | TEST CASE END: TC007 | Status: PASS
+2025-10-10 16:56:03 | INFO     | keyword_framework | log_test_end:122 | Duration: 6.61 seconds
+2025-10-10 16:56:03 | INFO     | keyword_framework | log_test_end:123 | ================================================================================
+2025-10-10 16:56:03 | INFO     | keyword_framework | log_test_end:124 | 
+2025-10-10 16:56:04 | INFO     | keyword_framework | pytest_sessionfinish:106 | ===== Test Session Completed =====
+2025-10-10 16:56:04 | INFO     | keyword_framework | pytest_sessionfinish:107 | Session exit status: 0
